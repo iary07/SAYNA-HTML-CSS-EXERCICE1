@@ -1,0 +1,125 @@
+
+.header {
+    position: fixed;
+    Padding:20px;
+    text-align:left;
+    background:#C55394;
+    font-family: cursive;
+    width:100%;
+    top: 0%;
+    left: 0%;
+    z-index:100;
+} 
+#maki {
+    position: fixed;
+    font-family: 'Courgette'; 
+    font-size:15px;
+    font-weight:bold;
+    margin-top: -1.2%;
+}
+#mada{
+    position: fixed;
+    font-family: arial;
+    font-size: 10px;
+    margin-left:66%;
+    margin-top:-0.5%;
+}
+#dago{
+    position:fixed;
+    font-family:arial;
+    font-size:10px;
+    margin-left: 76%;
+    margin-top:-0.5%;
+}
+#maki2{
+    position:fixed;
+    font-family:arial;
+    font-size:10px;
+    margin-left: 87%;
+    margin-top:-0.5%;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0%;
+    padding:10px;
+    background-color: #EB43A3;
+    width: 100%;
+}     
+ 
+
+ .border {
+     padding: 10px 20px;
+     background-color: #FFF;
+     margin: 30px 60px 70px;
+     border-radius: 1%;
+     box-shadow: 0px 0px 30px 0px;
+     
+
+}
+ 
+a.aa, a.bb{
+    color:#FFF;
+    text-decoration:none;
+}
+a.bb:hover {
+    background: #EB43A3;
+    padding:13px;
+    color:#FFF;
+    text-decoration:none;
+}
+* {box-sizing: border-box;
+margin: 0%;}
+.rel {display:flex;}
+.col {flex: 25%;
+padding: 15px;
+}
+.col:hover {
+    transform: scale(1.2);
+}      
+
+.marge {display:flex;}
+                                                
+.dessin {flex:50%;
+         padding:16px;
+         font-size: 12px;
+}
+.titre{
+    color:#C55394;
+    margin-left: 40%;
+    font-family:'Courgette';
+    font-size: 22px;
+    font-weight: bold;
+    margin-top:100px;
+}
+#source{
+    position:absolute;
+    left: 350px;
+    top: 55PX;
+    
+    
+}
+figcaption {
+            position:relative;
+            color:#FFF;
+            background-color: #333;
+            padding: 5px;
+            bottom: 30px;
+            text-align: center;
+            font-family: arial;
+            background: rgba(0, 0, 0, 0.7);
+}
+.me{
+    color:#EB43A3;
+    font-family: 'Courgette';
+    font-size: 20px;
+}
+input[type=submit]
+{
+    padding:5px;
+    text-align:center;
+    color:#FFF;
+    background-color:#C55394;
+    font-family: arial;
+    font-size: 1.1em;   
+}
